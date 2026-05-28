@@ -83,17 +83,5 @@ Backend JVM (Java/Kotlin/Spring Boot) con foco en APIs RESTful y arquitectura li
 
 ---
 
-## GitHub stats
 
-<div align="center">
-
-![Stats](https://github-readme-stats.vercel.app/api?username=omaradlcrrl&show_icons=true&theme=default&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=omaradlcrrl&layout=compact&hide_border=true)
-
-</div>
-
----
-
-<div align="center">
-  <sub><i>Lógica en código, datos en decisiones.</i></sub>
 </div>

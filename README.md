@@ -30,20 +30,12 @@ Backend JVM (Java/Kotlin/Spring Boot) con foco en APIs RESTful y arquitectura li
 
 ### 🏋️ [Fit-Win](https://github.com/omaradlcrrl/Fitwin) — Plataforma de gestión fitness
 
-<!-- Sustituye por captura/GIF real: docs/fitwin-demo.gif -->
-<p align="center">
-  <img src="docs/fitwin-demo.gif" alt="Fit-Win demo" width="600"/>
-</p>
 
 - API REST en **Spring Boot 3 + MariaDB**, autenticación **JWT** y **rate limiting** con Bucket4j (20 req/s por IP).
 - Cliente de escritorio **JavaFX** prototipado en Figma.
 - 40+ endpoints documentados con OpenAPI · Tests con JUnit 5 + Testcontainers.
 
 ### ⚔️ [LifeRPG](https://github.com/omaradlcrrl/LifeRPG) — Productividad gamificada
-
-<p align="center">
-  <img src="docs/liferpg-demo.gif" alt="LifeRPG demo" width="600"/>
-</p>
 
 - **Kotlin Multiplatform** + **Compose Multiplatform** (Android / iOS).
 - Arquitectura **offline-first** con `multiplatform-settings`.

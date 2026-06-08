@@ -39,11 +39,6 @@ Backend JVM (Java/Kotlin/Spring Boot) con foco en APIs RESTful y arquitectura li
 - Arquitectura **offline-first** con `multiplatform-settings`.
 - Motor de visualización propio sobre **Canvas** (radar charts, curvas trigonométricas) renderizando a 60 fps.
 
-### 📊 [Fitness Insights](https://github.com/omaradlcrrl/fitness-insights) — Data & ML *(en curso)*
-
-- Pipeline en **Python (pandas, scikit-learn)** sobre datos de Fit-Win.
-- Modelo de predicción de adherencia a planes de entrenamiento.
-- Dashboard en **Power BI** publicado para revisión semanal.
 
 ### 🚗 [Wallapop Auto-Scraper](https://github.com/omaradlcrrl/wallapop-scraper) — Automatización & Ingesta de Datos
 

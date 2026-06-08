@@ -1,13 +1,12 @@
 <div align="center">
 
 # Omar Adel Corral
-**Junior Full Stack & Multi-platform Developer | Cybersecurity & Data Analytics**
+**Full Stack & Mobile Developer | Data Analytics**
 
 [![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)](https://kotlinlang.org/)
 [![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)](https://openjdk.org/)
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=springboot&logoColor=white)](https://spring.io/)
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://python.org/)
-[![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)](https://www.linux.org/)
 
 ![Profile views](https://komarev.com/ghpvc/?username=omaradlcrrl&style=flat-square&color=blue)
 [![GitHub Followers](https://img.shields.io/github/followers/omaradlcrrl?style=flat-square)](https://github.com/omaradlcrrl)
@@ -20,59 +19,53 @@
 
 ## Sobre mí
 
-Desarrollador Junior Full Stack y Multiplataforma enfocado en el ecosistema JVM (Java, Kotlin, Spring Boot) bajo principios de arquitectura limpia y desarrollo de APIs RESTful sólidas. Complemento el desarrollo de producto con analítica de datos (Python, SQL) y una fuerte orientación hacia la ciberseguridad y el hacking ético, aplicando buenas prácticas de hardening y automatización desde las primeras fases del ciclo de software.
+Backend JVM (Java/Kotlin/Spring Boot) con foco en APIs RESTful y arquitectura limpia. Complemento el ciclo de desarrollo con Data Analytics (Python, Power BI) para convertir datos de producto en decisiones. Además de APIs y desarrollo de producto, construyo herramientas de automatización y scraping para ingesta y análisis de datos en tiempo real.
 
-> 🟢 **Abierto a oportunidades** — Backend / Mobile / DevSecOps · Madrid o Remoto
-> 📚 **Aprendiendo ahora** — Kubernetes, Apache Kafka, Linux Hardening & Pentesting
+> 🟢 **Abierto a oportunidades** — Backend / Mobile / Data Engineering · Madrid o remoto
 
 ---
 
 ## Proyectos destacados
 
-### 🏋️ [Fit-Win](https://github.com/omaradlcrrl/Fitwin) — Sistema de Gestión Fitness
+### 🏋️ [Fit-Win](https://github.com/omaradlcrrl/Fitwin) — Plataforma de gestión fitness
 
-Ecosistema completo de gestión fitness refactorizado desde una arquitectura base hacia un modelo multiplataforma robusto.
-- **Backend:** API REST en **Spring Boot 3 + MariaDB**, seguridad avanzada con **JWT** y control de tráfico mediante **rate limiting** con Bucket4j (20 req/s por IP).
-- **Frontend:** Cliente de escritorio ágil desarrollado en **Kotlin Multiplatform** (migrado desde JavaFX) garantizando extensibilidad.
-- **Calidad:** Más de 40 endpoints documentados con OpenAPI. Suite de pruebas automatizadas con JUnit 5 y Testcontainers.
+- API REST en **Spring Boot 3 + MariaDB**, autenticación **JWT** y **rate limiting** con Bucket4j (20 req/s por IP).
+- Cliente de escritorio **JavaFX** prototipado en Figma.
+- 40+ endpoints documentados con OpenAPI · Tests con JUnit 5 + Testcontainers.
 
-### ⚔️ [LifeRPG](https://github.com/omaradlcrrl/LifeRPG) — Gamificación de la Productividad
+### ⚔️ [LifeRPG](https://github.com/omaradlcrrl/LifeRPG) — Productividad gamificada
 
-Aplicación móvil diseñada para gamificar el crecimiento personal y el desarrollo de atributos mediante mecánicas de juego.
-- **Core:** Desarrollo nativo multiplataforma utilizando **Kotlin Multiplatform (KMP)** + **Compose Multiplatform** (Android / iOS).
-- **Arquitectura:** Enfoque *offline-first* estricto implementando almacenamiento local eficiente con `multiplatform-settings`.
-- **UI/UX:** Motor de visualización propio renderizado a 60 fps sobre **Canvas** (gráficos de radar hexagonales dinámicos y curvas trigonométricas para tracking de atributos).
+- **Kotlin Multiplatform** + **Compose Multiplatform** (Android / iOS).
+- Arquitectura **offline-first** con `multiplatform-settings`.
+- Motor de visualización propio sobre **Canvas** (radar charts, curvas trigonométricas) renderizando a 60 fps.
 
-### 📊 [Fitness Insights](https://github.com/omaradlcrrl/fitness-insights) — Data & Machine Learning
+### 📊 [Fitness Insights](https://github.com/omaradlcrrl/fitness-insights) — Data & ML *(en curso)*
 
-Pipeline de analítica avanzada para la explotación de datos de entrenamiento e ingesta de métricas de producto.
-- **Data Engineering:** Procesamiento e ingesta de datos estructurados provenientes del ecosistema Fit-Win mediante **Python (pandas)**.
-- **Modelado:** Prototipado de un modelo predictivo de adherencia a planes de entrenamiento utilizando **scikit-learn**.
-- **BI:** Dashboard interactivo en **Power BI** diseñado para la toma de decisiones y analítica semanal de rendimiento.
+- Pipeline en **Python (pandas, scikit-learn)** sobre datos de Fit-Win.
+- Modelo de predicción de adherencia a planes de entrenamiento.
+- Dashboard en **Power BI** publicado para revisión semanal.
 
 ### 🚗 [Wallapop Auto-Scraper](https://github.com/omaradlcrrl/wallapop-scraper) — Automatización & Ingesta de Datos
 
-Script de automatización enfocado en la recolección y estructuración de datos de mercado en tiempo real.
-- **Automatización:** Web scraping avanzado utilizando **Python + Playwright** para emular comportamiento humano realista (scroll asíncrono, bypass de consentimientos y gestión de cookies).
-- **Ingeniería Inversa:** Interceptación y parsing directo de respuestas JSON de la API interna de Wallapop (`api/v3/search/section`), evitando el parseo pesado de HTML.
-- **Datos:** Extracción estructurada bajo filtros dinámicos (precio, kilometraje, año, tipo de vendedor) lista para análisis de mercado.
+- Script automatizado en **Python + Playwright** para realizar web scraping avanzado de anuncios de coches.
+- Interceptación y parsing de respuestas JSON directamente de la API interna de Wallapop (`api/v3/search/section`).
+- Simulación de comportamiento humano realista (scroll asíncrono, bypass de consentimientos y cookies).
+- Extracción estructurada bajo filtros dinámicos (precio, kilometraje, año, vendedor particular) para posterior análisis de mercado.
 
 ---
 
-## Stack Técnico
+## Stack
 
 | Área | Tecnologías |
 |:---|:---|
-| **Lenguajes** | Java · Kotlin · Python · SQL (MySQL / MariaDB) · Bash |
-| **Frameworks / UI** | Spring Boot · Spring Security · Compose Multiplatform · JavaFX |
-| **Data & Analítica** | Power BI · pandas · scikit-learn |
-| **Ciberseguridad / OSINT**| Kali Linux · VirtualBox · Scripting de automatización · Sherlock |
-| **DevOps & Herramientas**| Docker · Git · GitHub Actions · Maven · Gradle (Kotlin DSL) · Figma |
+| **Lenguajes** | Java · Kotlin · Python · SQL |
+| **Frameworks** | Spring Boot · Spring Security · JavaFX · Compose Multiplatform |
+| **Data** | Power BI · pandas · scikit-learn · MariaDB / MySQL |
+| **DevOps & Tools** | Docker · Maven · Gradle (Kotlin DSL) · Git · GitHub Actions |
+| **Diseño** | Figma |
 
 ---
 
-## Educación y Trayectoria
+## Educación
 
-- **Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)** — *ESIC Business & Marketing School* (Mención Especial en Data Analytics).
-- **Google Professional Certificate in Cybersecurity** — *Coursera* (Foco en análisis de redes, seguridad en entornos Linux, Python para automatización de seguridad y gestión de vulnerabilidades).
-- **Desarrollador Independiente** — Diseño, arquitectura y refactorización de software de código abierto enfocado en la optimización de código, patrones de diseño limpios y seguridad en las APIs.
+- **ESIC Business & Marketing School** — Técnico Superior DAM (Desarrollo de Aplicaciones Multiplataforma), mención en Data Analytics.

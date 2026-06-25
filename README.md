@@ -21,7 +21,7 @@
 
 Backend JVM (Java/Kotlin/Spring Boot) con foco en APIs RESTful y arquitectura limpia. Complemento el ciclo de desarrollo con Data Analytics (Python, Power BI) para convertir datos de producto en decisiones. Además de APIs y desarrollo de producto, construyo herramientas de automatización y scraping para ingesta y análisis de datos en tiempo real.
 
-> 🟢 **Abierto a oportunidades** — Backend / Mobile / Data Engineering · Madrid o remoto
+> 🟢 **Abierto a oportunidades** — Madrid o remoto
 
 ---
 
